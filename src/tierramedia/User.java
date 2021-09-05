@@ -1,3 +1,5 @@
+package tierramedia;
+
 public class User {
     private final double presupuesto;
     private double tiempo;
