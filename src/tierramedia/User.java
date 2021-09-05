@@ -1,33 +1,27 @@
 package tierramedia;
 
 public class User {
+
     private final double presupuesto;
-    private double tiempo;
-    private char atraccion;
+    private final int tiempoDisponible;
+    private final Atraccion tipoAtraccion;
 
-
-    public User(double presupuesto) {
+    public User(double presupuesto, int tiempoDisponible, Atraccion tipoAtraccion) {
         this.presupuesto = presupuesto;
-        this.tiempo = tiempo;
-        this.atraccion = atraccion;
-
+        this.tiempoDisponible = tiempoDisponible;
+        this.tipoAtraccion = tipoAtraccion;
     }
 
     public double getPresupuesto() {
         return presupuesto;
     }
 
-    public double getTiempo() {
-        return tiempo;
+    public int getTiempoDisponible() {
+        return tiempoDisponible;
     }
 
-    public int getAtraccion() {
-        return atraccion;
-    }
-
-    public double calcularPresupuesto() {
-
-        return 0;
+    public Atraccion getTipoAtraccion() {
+        return tipoAtraccion;
     }
 }
 
