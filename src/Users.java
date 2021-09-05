@@ -1,6 +1,6 @@
 public class Users {
         private final double presupuesto;
-        private double tiempo = 0;
+        private double tiempo;
         private char atraccion;
 
 
@@ -10,7 +10,6 @@ public class Users {
         this.atraccion= atraccion;
 
     }
-
     public double getPresupuesto() {
             return presupuesto;
         }
@@ -21,5 +20,9 @@ public class Users {
             return atraccion;
         }
 
+    public double calcularPresupuesto() {
+
+        return 0;
+    }
 }
 
