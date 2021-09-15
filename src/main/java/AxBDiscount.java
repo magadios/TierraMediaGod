@@ -1,4 +1,4 @@
-public abstract class AxBDiscount implements DiscountService {
+public  class AxBDiscount implements DiscountService {
     @Override
 
     public String toString() {
@@ -21,6 +21,7 @@ public abstract class AxBDiscount implements DiscountService {
 
 
     public String getPromotion() {
+
         return attractionName1.getAttractionName() + " + " + attractionName2.getAttractionName() + " por " + discount + " monedas y " + attractionName3.getAttractionName() + " es gratis!";
     }
 
@@ -35,5 +36,10 @@ public abstract class AxBDiscount implements DiscountService {
         return this.discount;
     }
 
- // Falta hacer una comprobacion para ver si el usuario podria permitirse la promo o no ?
+    @Override
+    public double getDiscount() {
+        return 0;
+    }
+
+    // Falta hacer una comprobacion para ver si el usuario podria permitirse la promo o no ?
 }

@@ -5,7 +5,7 @@ public class PercentageDiscount implements DiscountService {
   protected Attraction attractionName1;
   protected Attraction attractionName2;
 
-  public PercentageDiscount(String typeOfAttraction, Attraction attractionName1, Attraction attractionName2, int discount) {
+  public PercentageDiscount() {
     super();
     this.discount = discount;
     this.typeOfAttraction = typeOfAttraction;
