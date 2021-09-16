@@ -85,6 +85,7 @@ public class Suggestion {
 
 
   public void setAttractions(List<Attraction> attractions) {
+
   }
 
   public void setPromotions(List<Promotion> promotions) {

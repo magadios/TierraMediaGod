@@ -7,5 +7,7 @@ public class Promotion {
     this.name = name;
     this.discount = discount;
     this.discountService = discountService;
+
   }
+
 }

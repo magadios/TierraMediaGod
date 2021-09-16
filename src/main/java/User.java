@@ -1,8 +1,10 @@
+import java.io.*;
+
 public class User {
   private String userName;
   private UserProfile profile;
 
-  public User(String userName) {
+  public User(String name, String userName, int i, double v) {
     this.userName = userName;
     this.profile = new UserProfile();
   }
@@ -22,5 +24,6 @@ public class User {
   public void setProfile(UserProfile profile) {
     this.profile = profile;
   }
+
 
 }
